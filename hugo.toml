@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+title = "Chengming Tang's Blog"
+theme = 'PaperMod'
+enableEmoji = true
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 20
+
+[params.homeInfoParams]
+Title = 'Hi there'
+Content = 'Welcome to my blog'
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ChengmingTangCN"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[caches.images]
+dir = ':cacheDir/images'
+
