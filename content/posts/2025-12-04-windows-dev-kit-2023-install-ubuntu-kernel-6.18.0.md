@@ -1,7 +1,6 @@
 +++
 title = 'Windows Dev Kit 2023 Install Ubuntu Kernel 6.18.0'
 date = 2025-12-04T10:56:00+08:00
-draft = true
 tag = ['ARM64', 'Linux']
 +++
 
